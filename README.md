@@ -61,5 +61,5 @@ The final 3D reconstruction looked like this:
 
 
 After using three.js, we tried to make the virtual tour for which here is the demo
-[Watch the demo video](virtual_tour.mov)
+[Watch the demo video](https://drive.google.com/file/d/104WQqTp22JKukfzXB08SwD_yl8IsxltM/view?usp=sharing)
 
