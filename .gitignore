@@ -1,0 +1,8 @@
+.venv/
+.idea/
+.DS_Store
+.open3d_venv/
+venv/
+web_viewer/data/
+web_viewer/point_cloud.ply
+data/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Metashape Virtual Tour</title>
+
+  <!-- Import map: explicit, reliable Three.js resolution -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Three.js will attach its canvas here -->
+  <div id="container"></div>
+
+  <!-- Image overlay UI (used by main.js) -->
+  <div id="imageOverlay" class="hidden">
+    <div id="imageHeader">
+      <span id="imageLabel"></span>
+      <button id="closeImage" title="Close">✕</button>
+    </div>
+    <div id="imageBody">
+      <img id="cameraImage" alt="Camera view" />
+      <div id="imageWarning" class="hidden"></div>
+    </div>
+  </div>
+
+  <!-- Main viewer logic -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
